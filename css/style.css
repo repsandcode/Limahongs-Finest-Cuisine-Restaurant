@@ -64,6 +64,53 @@ footer h3{
 /******************************************
 /* LAYOUT
 /*******************************************/
+header{
+  border: 1px solid red;
+}
+
+.header{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0;
+  position: relative;
+}
+
+.header ul{
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  border: 1px solid green;
+}
+
+.header li{
+  border: 1px solid yellow;
+  font-size: .66rem;
+}
+
+.main{
+  background: url(/img/brooke-lark-08bOYnH_r_E-unsplash.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scaleX(-1);
+}
+
+.main h1,
+.main form,
+.main ul{
+  transform: scaleX(-1);
+}
+
+.main h1{
+  margin-top: 0;
+  font-size: 2rem;
+}
+
+.main form input{
+
+}
+
+
 
 
 
