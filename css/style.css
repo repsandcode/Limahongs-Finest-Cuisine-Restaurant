@@ -1,0 +1,72 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/* 
+FONTS 
+
+font-family: 'Bodoni Moda', serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+:root{
+  --indigo: #0d0d25;
+  --orange: #ff8800;
+  --placeholder-color: #b9b9b9;
+  --nav-colors: #353558;
+  --button-click-color: #ffaa4d;
+  --paragraph-color: #2C313C;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 62.5%;
+  color: var(--paragraph-color);
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: var(--paragraph-color);
+}
+
+h1,
+h2,
+footer h3{
+  font-family: 'Bodoni Moda', serif;
+  color: var(--indigo);
+  text-transform: capitalize;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
