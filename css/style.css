@@ -65,7 +65,11 @@ footer h3{
 /* LAYOUT
 /*******************************************/
 header{
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  padding-top: .8rem;
 }
 
 .header{
@@ -73,41 +77,73 @@ header{
   justify-content: flex-end;
   margin-bottom: 0;
   position: relative;
+  padding-right: 4rem;
 }
 
 .header ul{
   display: flex;
   justify-content: space-between;
   width: 60%;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 .header li{
-  border: 1px solid yellow;
-  font-size: .66rem;
+  /* border: 1px solid yellow; */
+  font-size: .70rem;
 }
 
+.header li i{
+  /* border: 1px solid yellow; */
+  font-size: .90rem;
+}
+
+
 .main{
+  position: relative;
   background: url(/img/brooke-lark-08bOYnH_r_E-unsplash.jpg);
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
-  transform: scaleX(-1);
+  transform: rotateY(180deg);
 }
 
-.main h1,
-.main form,
-.main ul{
-  transform: scaleX(-1);
+.welcome-section{
+  transform: rotateY(180deg);
+  padding-left: 4rem;
+  padding-top: 9.5rem;
+  float: right;
+  width: 60%;
 }
 
 .main h1{
-  margin-top: 0;
-  font-size: 2rem;
+  margin: 0;
+  font-size: 3.5rem;
+}
+
+.main form{
+  margin: 1rem 0;
 }
 
 .main form input{
+  padding: .7rem .8rem;
+  width: 60%;
+  border: 1px solid var(--placeholder-color);
+  border-right: none;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  color: var(--placeholder-color);
+  font-size: .66rem;
+}
 
+.main form input + input{
+  width: 5rem;
+  background-color: var(--orange);
+  border: none;
+  border-radius: 0;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: white;
+  cursor: pointer;
 }
 
 
