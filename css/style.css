@@ -62,6 +62,7 @@ h4{
   color: var(--orange);
   font-weight: 500;
   margin-bottom: .5rem;
+  text-transform: capitalize;
 } 
 
 h1,
@@ -89,7 +90,7 @@ header{
 }
 
 .header{
-  padding-right: 4rem;
+  padding-right: 5rem;
 }
 
 .header ul{
@@ -122,7 +123,7 @@ header{
 
 .welcome-section{
   transform: rotateY(180deg);
-  padding-left: 4rem;
+  padding-left: 5rem;
   margin-top: 15rem;
   float: right;
   width: 50%;
@@ -197,7 +198,7 @@ header{
 .about-us-content{
   width: 55%;
   background-image: rgb(239, 241, 240);
-  padding: 5%;
+  padding: 8.5% 5%;
 }
 
 .about-us-content p{
