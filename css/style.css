@@ -81,6 +81,8 @@ footer h3{
 /******************************************
 /* LAYOUT
 /*******************************************/
+
+
 header{
   /* border: 1px solid red; */
   position: absolute;
@@ -111,6 +113,9 @@ header{
   font-size: 1.2rem;
 }
 
+
+
+/* MAIN SECTION */
 
 .main{
   position: relative;
@@ -181,6 +186,8 @@ header{
 }
 
 
+
+/* ABOUT US SECTION */
 .about-us{
   display: flex;
   
@@ -235,6 +242,8 @@ header{
 .fa-arrow-right{
   font-size: .66rem;
 }
+
+
 
 /******************************************
 /* ADDITIONAL STYLES
