@@ -93,7 +93,7 @@ header{
 }
 
 .header{
-  margin-right: 5rem;
+  margin-right: 7rem;
 }
 
 .header ul{
@@ -129,7 +129,7 @@ header{
 
 .welcome-section{
   transform: rotateY(180deg);
-  margin-right: 5rem;
+  margin-right: 7rem;
   margin-top: 15rem;
   float: right;
   width: 50%;
@@ -209,14 +209,14 @@ header{
 }
 
 .about-us-content h1{
-  margin-right: 5rem;
+  margin-right: 7rem;
 }
 
 .about-us-content p{
   line-height: 1.8;
   font-size: .9rem;
   margin: 1.5rem 0;
-  margin-right: 5rem;
+  margin-right: 7rem;
 }
 
 .about-us-content input{
@@ -254,13 +254,33 @@ header{
 
 /* MENU SECTION */
 .menu{
-  margin: 0 5rem;
+  margin: 0 7rem;
+  text-align: center;
+}
+
+.menu ul{
+  display: flex;
+  justify-content: center;
+  margin: 2.5rem 0;
+}
+
+.menu li{
+  padding: .5rem 1.5rem;
+  font-size: 1.1rem;
+  border-bottom: 1.5px solid #c8c8c8;
+  cursor: pointer;
+}
+
+.menu li:first-child{
+  color: var(--orange);
+  border-bottom: 2px solid var(--orange);
 }
 
 .menu-images{
+  /* margin: 2rem 0; */
   display: grid;
-  grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
-  gap: 2%;
+  grid-template: 1fr 1fr / 1fr 1fr 1fr 1fr;
+  gap: 2rem;
 }
 
 .menu-images > article {
@@ -268,10 +288,11 @@ header{
   background: url(/img/ben-kolde-FFqNATH27EM-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 5rem 0;
 }
 
-.menu-images img{
-  max-width: 100%;
+.sample-hover-menu h2{
+  
 }
 
 
