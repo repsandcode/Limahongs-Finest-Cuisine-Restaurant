@@ -54,11 +54,11 @@ a{
 }
 
 h1{
-  font-size: 4rem;
+  font-size: 4.3rem;
 }
 
 h4{
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: var(--orange);
   font-weight: 500;
   margin-bottom: .5rem;
@@ -108,7 +108,7 @@ header{
 
 .header li{
   /* border: 1px solid yellow; */
-  font-size: .9rem;
+  font-size: 1rem;
   margin-left: 4.2%;
 }
 
@@ -221,40 +221,40 @@ header{
 
 .about-us-content p{
   line-height: 1.8;
-  font-size: .9rem;
-  margin: 1.5rem 0;
+  font-size: 1rem;
+  margin: 2.5rem 0;
   margin-right: 7rem;
 }
 
 .about-us-content input{
-  padding: .75rem .8rem;
+  padding: 1rem;
   border-right: none;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
   border: none;
   background: var(--orange);
   color: white;
-  font-size: .85rem;
+  font-size: 1rem;
   cursor: pointer;
   margin-bottom: 5rem;
 }
 
 .about-us-content button{
-  padding: .75rem .8rem;
+  padding: 1rem;
   background-color: var(--button-click-color);
   border: none;
   border-left: none;
   border-radius: 0;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
   color: white;
   cursor: pointer;
-  font-size: .85rem;
+  font-size: 1rem;
   margin-bottom: 5rem;
 }
 
 .fa-arrow-right{
-  font-size: .66rem;
+  font-size: .7rem;
 }
 
 
@@ -276,8 +276,8 @@ header{
 }
 
 .menu li{
-  padding: .5rem 2.5%;
-  font-size: 1.1rem;
+  padding: 1rem 2.5%;
+  font-size: 1.13rem;
   border-bottom: 1.5px solid #c8c8c8;
   cursor: pointer;
 }
