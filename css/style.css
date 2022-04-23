@@ -387,6 +387,18 @@ header{
   padding: 0 6rem;
 }
 
+
+.footer{
+  background: rgb(243, 247, 248);
+  display: grid;
+  grid-template: 1fr auto / 1fr 1fr 1fr 1fr;
+  padding: 5rem 7rem 1.2rem 7rem;
+}
+
+.lower-footer{
+  grid-area: 2 / 1 / 2 / 5;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
