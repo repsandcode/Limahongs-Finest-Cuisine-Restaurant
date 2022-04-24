@@ -394,21 +394,46 @@ header{
 
 .upper-footer{
   display: grid;
-  grid-template: auto / 1fr 1fr 1fr 1fr;
-  padding: 5rem 7rem 0 7rem;
+  grid-template: auto / 1fr 20% 23% 25%;
+  padding: 3rem 7rem;
 }
 
 .footer h3{
   font-size: 1.6rem;
+  margin-bottom: 1.5rem;
 }
 
 .footer p,
 .footer input{
-  font-size: .8rem;
+  font-size: .9rem;
 }
 
 .s1-footer p{
   line-height: 1.8;
+}
+
+.s1-footer{
+  padding-right: 3rem;
+}
+
+.s2-footer p,
+.s3-footer p{
+  margin-bottom: 1rem;
+}
+
+.s4-footer input{
+  border: 1px solid #6d6d6d;
+  border-radius: 4px;
+  padding: .8rem;
+  width: 90%;
+}
+
+.s4-footer input::placeholder{
+  color: var(--paragraph-color);
+}
+
+.s4-footer input:focus{
+  outline: none;
 }
 
 .lower-footer{

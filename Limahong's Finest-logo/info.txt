@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: IBMPlexSerif-Regular
+font link: https://fonts.google.com/specimen/IBM+Plex+Serif
+font author: Mike Abbink
+font author site: https://www.mikeabbink.com/
+
+
+icon designer: Manuela Ribas
+icon designer link: /manuribas
+        
+{"bg":"#3E3734","icon":"#C67D4E","font":"#ffffff","slogan":"#ffffff"}
+      
