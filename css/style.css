@@ -392,8 +392,8 @@ header{
 }
 
 .footer h3{
-  font-size: 1.6rem;
-  margin-bottom: 1.5rem;
+  font-size: 1.9rem;
+  margin-bottom: 3rem;
 }
 
 .footer p,
@@ -404,22 +404,37 @@ header{
 .upper-footer{
   display: grid;
   grid-template: auto / 30% 20% 25% 25%;
-  padding: 3rem 7rem;
+  padding: 0 7rem 3rem 7rem;
+}
+
+.s1-footer{
+  padding-top: 2rem;
 }
 
 .s1-footer p{
   line-height: 1.8;
 }
 
+.s1-footer img{
+  width: 80%;
+  margin-bottom: 2rem;
+}
+
 .s2-footer p,
 .s3-footer p{
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .s1-footer,
 .s2-footer,
 .s3-footer{
-  padding-right: 2rem;
+  padding-right: 1rem;
+}
+
+.s2-footer,
+.s3-footer,
+.s4-footer{
+  padding-top: 3rem;
 }
 
 .s3-footer a{
@@ -432,8 +447,8 @@ header{
   border-right: none;
   border-top-left-radius: 7px;
   border-bottom-left-radius: 7px;
-  padding: 1rem .8rem;
-  width: 78%;
+  padding: 1rem;
+  width: 80%;
 }
 
 .s4-footer input::placeholder{
@@ -451,7 +466,8 @@ header{
   border-top-right-radius: 7px;
   border-bottom-right-radius: 7px;
   color: var(--orange);
-  padding: .95rem .8rem 1.05rem 0;
+  padding: .95rem 0 1.05rem 0;
+  width: 20%;
 }
 
 .s4-footer i{
@@ -460,14 +476,40 @@ header{
 }
 
 .lower-footer{
-  border-top: 1px solid #b9b9b9;
+  border-top: 1px solid #c8c8c8;
   padding: 1.2rem 7rem 1.2rem 7rem;
   display: flex;
+  justify-content: space-between;
+}
+
+.lower-footer p{
+  display: flex;
+  align-items: center;
 }
 
 .lower-footer ul{
   display: flex;
-  
+}
+
+.lower-footer li{
+  margin-left: 2rem;
+}
+
+.lower-footer i{
+  font-size: 1rem;
+  border: 1px solid var(--orange);
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.lower-footer i:is(:hover, :focus){
+  background: var(--orange);
+  color: rgb(243, 247, 248);
 }
 /******************************************
 /* ADDITIONAL STYLES
