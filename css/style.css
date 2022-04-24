@@ -167,7 +167,6 @@ header{
   background-color: var(--orange);
   border: 1px solid #b9b9b9cc;
   border-left: none;
-  border-radius: 0;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   color: white;
@@ -392,12 +391,6 @@ header{
   background: rgb(243, 247, 248);
 }
 
-.upper-footer{
-  display: grid;
-  grid-template: auto / 1fr 20% 23% 25%;
-  padding: 3rem 7rem;
-}
-
 .footer h3{
   font-size: 1.6rem;
   margin-bottom: 1.5rem;
@@ -408,12 +401,14 @@ header{
   font-size: .9rem;
 }
 
-.s1-footer p{
-  line-height: 1.8;
+.upper-footer{
+  display: grid;
+  grid-template: auto / 30% 20% 25% 25%;
+  padding: 3rem 7rem;
 }
 
-.s1-footer{
-  padding-right: 3rem;
+.s1-footer p{
+  line-height: 1.8;
 }
 
 .s2-footer p,
@@ -421,11 +416,24 @@ header{
   margin-bottom: 1rem;
 }
 
+.s1-footer,
+.s2-footer,
+.s3-footer{
+  padding-right: 2rem;
+}
+
+.s3-footer a{
+  color: var(--orange);
+  text-decoration: underline;
+}
+
 .s4-footer input{
   border: 1px solid #6d6d6d;
-  border-radius: 4px;
-  padding: .8rem;
-  width: 90%;
+  border-right: none;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  padding: 1rem .8rem;
+  width: 78%;
 }
 
 .s4-footer input::placeholder{
@@ -436,11 +444,31 @@ header{
   outline: none;
 }
 
-.lower-footer{
-  border-top: 1px solid #b9b9b9;
-  padding: 1.2rem 0 1.2rem 7rem;
+.s4-footer button{
+  background: white;
+  border: 1px solid #6d6d6d;
+  border-left: none;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  color: var(--orange);
+  padding: .95rem .8rem 1.05rem 0;
 }
 
+.s4-footer i{
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.lower-footer{
+  border-top: 1px solid #b9b9b9;
+  padding: 1.2rem 7rem 1.2rem 7rem;
+  display: flex;
+}
+
+.lower-footer ul{
+  display: flex;
+  
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
