@@ -117,6 +117,10 @@ header{
   font-size: 1.2rem;
 }
 
+.header input[type="checkbox"],
+.header .hamburger-lines {
+  display: none;
+}
 
 
 /* MAIN SECTION */
@@ -511,6 +515,12 @@ header{
   background: var(--orange);
   color: rgb(243, 247, 248);
 }
+
+
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+@media (min-width: 1200px) {
+  
+}
