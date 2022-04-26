@@ -90,7 +90,7 @@ footer h3{
 header{
   /* border: 1px solid red; */
   position: absolute;
-  z-index: 100;
+  z-index: 1;
   width: 100%;
   padding-top: 1.2rem;
 }
@@ -534,6 +534,7 @@ header{
   header{
     padding-top: 0;
     position: fixed;
+    width: auto;
   }
 
   .header{
@@ -597,13 +598,10 @@ header{
     max-width: 16rem;
 
     background: rgba(255, 255, 255, 0.888);
-    margin-top: 0;
-    padding-top: 8rem;
-    
     height: 100vh;
+    margin-top: 0;
+    padding: 8rem 3rem 0 3rem;
     transform: translate(-150%);
-    
-    padding-left: 3rem;
     transition: transform 0.4s ease-in-out;
     /* box-shadow: 5px 0px 10px 0px #aaa; */
   }
@@ -629,5 +627,5 @@ header{
     transform: rotate(-42deg);
   }
 
-  
+   
 }
