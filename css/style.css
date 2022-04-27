@@ -145,8 +145,8 @@ header{
 
 .welcome-section{
   transform: rotateY(180deg);
-  margin-right: 7rem;
-  margin-top: 12rem;
+  margin-right: 7%;
+  margin-top: 12%;
   float: right;
   width: 50%;
 }
@@ -626,6 +626,10 @@ header{
   .header input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
     transform: rotate(-42deg);
   }
+}
 
-   
+@media (max-width: 1120px){
+  
+
+  
 }
