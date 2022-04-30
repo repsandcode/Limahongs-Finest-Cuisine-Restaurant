@@ -146,7 +146,7 @@ header{
 .welcome-section{
   transform: rotateY(180deg);
   margin-right: 7%;
-  margin-top: 12%;
+  margin-top: 10rem;
   float: right;
   width: 50%;
 }
@@ -637,6 +637,21 @@ header{
   .main h1{
     font-size: 4.5rem;
   }
+  .main form{
+    margin: 2rem 0 2.4rem 0;
+    font-size: .9rem;
+  }
+  
+  .fa-caret-down{
+    margin-left: .4rem;
+    font-size: .9rem;
+  }
+  
+  .main a{
+    color: var(--indigo);
+    margin-right: 3rem;
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 1050px){
@@ -648,5 +663,12 @@ header{
 @media (max-width: 1000px){
   .main h1{
     font-size: 4rem;
+  }
+}
+
+@media (max-width: 870px){
+  .main{
+    background-repeat: repeat-y;
+    
   }
 }
