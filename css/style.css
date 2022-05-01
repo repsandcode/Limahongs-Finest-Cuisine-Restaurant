@@ -138,8 +138,10 @@ header{
   position: relative;
   background: url(/img/brooke-lark-08bOYnH_r_E-unsplash.jpg);
   height: 792px;
+  background-position: 45% 0%;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: visible;
   transform: rotateY(180deg);
 }
 
@@ -667,8 +669,11 @@ header{
 }
 
 @media (max-width: 870px){
-  .main{
-    background-repeat: repeat-y;
-    
+  .welcome-section{
+    transform: rotateY(180deg);
+    margin-right: 7%;
+    margin-top: 10rem;
+    float: right;
+    width: 50%;
   }
 }
