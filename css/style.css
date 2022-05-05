@@ -537,6 +537,52 @@ header{
 @media (max-width:960px) { h1 {font-size:1.2rem;} }
 @media (max-width:1100px) { h1 {font-size:1.5rem;} } */
 
+@media (max-width: 1400px){
+
+  /* .menu-hidden{
+    top:20%;
+  }
+  .menu-hidden h2,
+  .menu-hidden p{
+    font-size: 1.8rem;
+  }
+  .menu-hidden i{
+    font-size: .9rem;
+  } */
+}
+
+@media (max-width: 1340px){
+  .menu-images{
+    display: grid;
+    grid-template: auto / 1fr 1fr 1fr;
+    gap: 4rem;
+  }
+
+  /* .menu-hidden{
+    top:18%;
+  }
+  .menu-hidden h2,
+  .menu-hidden p{
+    font-size: 1.7rem;
+  }
+  .menu-hidden i{
+    font-size: .9rem;
+    margin: .3rem 0;
+  }
+  .menu-hidden input{
+    font-size: .9rem;
+  } */
+}
+
+@media (max-width: 1290px){
+  
+
+}
+
+@media (max-width: 1190px){
+  
+}
+
 @media (max-width: 1120px){
   .main h1{
     font-size: 4.5rem;
@@ -555,6 +601,14 @@ header{
     color: var(--indigo);
     margin-right: 3rem;
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 1090px){
+  .menu-images{
+    display: grid;
+    grid-template: auto / 1fr 1fr;
+    gap: 5rem;
   }
 }
 
@@ -679,5 +733,11 @@ header{
 
   .header input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
     transform: rotate(-42deg);
+  }
+
+  .menu-images{
+    display: grid;
+    grid-template: auto / 1fr;
+    gap: 5rem;
   }
 }
