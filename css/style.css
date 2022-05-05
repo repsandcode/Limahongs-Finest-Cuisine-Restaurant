@@ -537,6 +537,53 @@ header{
 @media (max-width:960px) { h1 {font-size:1.2rem;} }
 @media (max-width:1100px) { h1 {font-size:1.5rem;} } */
 
+@media (max-width: 1120px){
+  .main h1{
+    font-size: 4.5rem;
+  }
+  .main form{
+    margin: 2rem 0 2.4rem 0;
+    font-size: .9rem;
+  }
+  
+  .fa-caret-down{
+    margin-left: .4rem;
+    font-size: .9rem;
+  }
+  
+  .main a{
+    color: var(--indigo);
+    margin-right: 3rem;
+    font-size: 1rem;
+  }
+}
+
+
+@media (max-width: 1050px){
+  .main h1{
+    font-size: 4.3rem;
+  }
+}
+
+
+@media (max-width: 1000px){
+  .main h1{
+    font-size: 4rem;
+  }
+}
+
+
+@media (max-width: 870px){
+  .welcome-section{
+    transform: rotateY(180deg);
+    margin-right: 7%;
+    margin-top: 10rem;
+    float: right;
+    width: 50%;
+  }
+}
+
+
 @media (max-width: 820px) {
   header{
     padding-top: 0;
@@ -632,48 +679,5 @@ header{
 
   .header input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
     transform: rotate(-42deg);
-  }
-}
-
-@media (max-width: 1120px){
-  .main h1{
-    font-size: 4.5rem;
-  }
-  .main form{
-    margin: 2rem 0 2.4rem 0;
-    font-size: .9rem;
-  }
-  
-  .fa-caret-down{
-    margin-left: .4rem;
-    font-size: .9rem;
-  }
-  
-  .main a{
-    color: var(--indigo);
-    margin-right: 3rem;
-    font-size: 1rem;
-  }
-}
-
-@media (max-width: 1050px){
-  .main h1{
-    font-size: 4.3rem;
-  }
-}
-
-@media (max-width: 1000px){
-  .main h1{
-    font-size: 4rem;
-  }
-}
-
-@media (max-width: 870px){
-  .welcome-section{
-    transform: rotateY(180deg);
-    margin-right: 7%;
-    margin-top: 10rem;
-    float: right;
-    width: 50%;
   }
 }
