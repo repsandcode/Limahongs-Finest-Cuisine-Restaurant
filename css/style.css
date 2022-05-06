@@ -642,6 +642,35 @@ header{
     float: right;
     width: 50%;
   }
+
+  .upper-footer{
+    grid-template: auto / 100%;
+  }
+  .s1-footer, 
+  .s2-footer,
+  .s3-footer,
+  .s4-footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .s1-footer img{
+    width: 60%;
+    margin-bottom: 2rem;
+  }
+
+  .s1-footer p{
+    text-align: center;
+  }
+  
+  .s1-footer,
+  .s2-footer,
+  .s3-footer{
+    padding-right: 0rem;
+  }
+
 }
 
 
@@ -746,5 +775,11 @@ header{
     display: grid;
     grid-template: auto / 1fr;
     gap: 5rem;
+  }
+}
+
+@media (max-width: 620px){
+  .s1-footer img{
+    width: 100%;
   }
 }
