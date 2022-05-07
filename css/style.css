@@ -551,26 +551,67 @@ header{
   } */
 }
 
+@media (max-width: 1366px){
+  .about-us-left-image{
+    background-image: 
+    linear-gradient(to right, rgba(223, 223, 223, 0) 68%, rgb(255, 255, 255) 98%),
+    url(/img/not\ url\ background\ image.jpg);
+    width: 48%;
+  }
+    
+  .about-us-content{
+    width: 52%;
+    background-color: rgba(255, 255, 255, 0.981);
+    padding-left: 1rem;
+  }
+  .about-us-content h1,
+  .about-us-content p{
+    margin-right: 5rem;
+  }
+  
+}
+
 @media (max-width: 1340px){
+  .about-us-left-image{
+    width: 45%;
+  }
+    
+  .about-us-content{
+    width: 55%;
+  }
+
   .menu-images{
     display: grid;
     grid-template: auto / 1fr 1fr 1fr;
     gap: 4rem;
   }
-}
 
-@media (max-width: 1340px){
   .upper-footer{
     grid-template: auto / 40% 30% 30%;
   }
+
 }
 
 @media (max-width: 1290px){
+  .about-us-left-image{
+    width: 42%;
+  }
+    
+  .about-us-content{
+    width: 58%;
+  }
   
-
 }
 
 @media (max-width: 1190px){
+  .about-us-left-image{
+    width: 40%;
+  }
+    
+  .about-us-content{
+    width: 60%;
+  }
+
   .upper-footer{
     grid-template: auto / 50% 50%;
   }
@@ -595,20 +636,45 @@ header{
     margin-right: 3rem;
     font-size: 1rem;
   }
+
+  .about-us-left-image{
+    width: 38%;
+  }
+    
+  .about-us-content{
+    width: 62%;
+  }
 }
 
 @media (max-width: 1090px){
+  .about-us-left-image{
+    width: 35%;
+  }
+    
+  .about-us-content{
+    width: 65%;
+  }
+
   .menu-images{
     display: grid;
     grid-template: auto / 1fr 1fr;
     gap: 5rem;
   }
+
 }
 
 
 @media (max-width: 1050px){
   .main h1{
     font-size: 4.3rem;
+  }
+
+  .about-us-left-image{
+    width: 30%;
+  }
+    
+  .about-us-content{
+    width: 70%;
   }
 }
 
@@ -617,10 +683,26 @@ header{
   .main h1{
     font-size: 4rem;
   }
+
+  .about-us-left-image{
+    width: 28%;
+  }
+    
+  .about-us-content{
+    width: 72%;
+  }
 }
 
 
 @media (max-width: 870px){
+  .about-us-left-image{
+    width: 25%;
+  }
+    
+  .about-us-content{
+    width: 75%;
+  }
+
   .welcome-section{
     transform: rotateY(180deg);
     margin-right: 7%;
@@ -766,6 +848,18 @@ header{
     grid-template: auto / 1fr;
     gap: 5rem;
   }
+}
+
+@media (max-width: 800px){
+  .about-us-left-image{
+    display: none;
+  }
+    
+  .about-us-content{
+    width: 100%;
+    padding-left: 3rem;
+  }
+
 }
 
 @media (max-width: 620px){
