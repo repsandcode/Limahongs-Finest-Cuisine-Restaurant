@@ -138,7 +138,7 @@ header{
   position: relative;
   background: url(/img/brooke-lark-08bOYnH_r_E-unsplash.jpg);
   height: 792px;
-  background-position: 45% 0%;
+  background-position: 50% 0%;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: visible;
@@ -593,6 +593,10 @@ header{
 }
 
 @media (max-width: 1290px){
+  .main form input{
+    width: 70%;
+  }
+
   .about-us-left-image{
     width: 42%;
   }
@@ -604,6 +608,10 @@ header{
 }
 
 @media (max-width: 1190px){
+  .main form input{
+    width: 70%;
+  }
+
   .about-us-left-image{
     width: 40%;
   }
@@ -693,22 +701,68 @@ header{
   }
 }
 
+@media (max-width: 930px){
+  .welcome-section{
+    margin-top: 11rem;
+  }
+  
+  .main h1{
+    font-size: 3.8rem;
+  }
+  
+  .main form{
+    margin: 2rem 0 2.4rem 0;
+    font-size: .85rem;
+  }
+  
+  .main form input{
+    width: 70%;
+  }
+  
+  .main form button{
+    padding: .88rem 1rem;
+  }
+  
+  .fa-caret-down{
+    margin-left: .4rem;
+    font-size: .9rem;
+  }
+
+  .main a{
+    color: var(--indigo);
+    margin-right: 3rem;
+    font-size: 1rem;
+  }
+}
 
 @media (max-width: 870px){
+  
+  .main h1{
+    font-size: 3.6rem;
+  }
+  
+  .main form{
+    margin: 2rem 0 2.4rem 0;
+    font-size: .8rem;
+  }
+  
+  .main form button{
+    padding: .9rem 1rem;
+  }
+  
+  .fa-caret-down{
+    margin-left: .4rem;
+    font-size: .8rem;
+  }
+
+
+
   .about-us-left-image{
     width: 25%;
   }
     
   .about-us-content{
     width: 75%;
-  }
-
-  .welcome-section{
-    transform: rotateY(180deg);
-    margin-right: 7%;
-    margin-top: 10rem;
-    float: right;
-    width: 50%;
   }
 
   .upper-footer{
@@ -843,6 +897,22 @@ header{
     transform: rotate(-42deg);
   }
 
+
+
+  .welcome-section{
+    transform: rotateY(180deg);
+    margin-right: 3rem;
+    margin-top: 11rem;
+    float: right;
+    width: 55%;
+  }
+  
+  .main form input{
+    width: 70%;
+  }
+
+
+
   .menu-images{
     display: grid;
     grid-template: auto / 1fr;
@@ -851,6 +921,10 @@ header{
 }
 
 @media (max-width: 800px){
+  .main form input{
+    width: 70%;
+  }
+
   .about-us-left-image{
     display: none;
   }
@@ -862,8 +936,47 @@ header{
 
 }
 
+
+@media (max-width: 747px){
+  .welcome-section{
+    transform: rotateY(180deg);
+    margin-right: 3rem;
+    float: right;
+    width: 60%;
+  }
+  
+  .main form input{
+    width: 70%;
+  }
+
+  .main h1{
+    font-size: 3.5rem;
+  }
+  
+  .main form{
+    margin: 2rem 0 2.4rem 0;
+    font-size: .9rem;
+  }
+  
+  .main form button{
+    padding: .88rem 1rem;
+  }
+  
+  .fa-caret-down{
+    margin-left: .4rem;
+    font-size: .9rem;
+  }
+
+  .main a{
+    color: var(--indigo);
+    margin-right: 3rem;
+    font-size: 1rem;
+  }
+}
+
 @media (max-width: 620px){
   .s1-footer img{
     width: 100%;
   }
 }
+
