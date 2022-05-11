@@ -652,7 +652,15 @@ header{
   .about-us-content{
     width: 62%;
   }
+
+
+
+  .testimonials span+p{
+    padding: 0 3rem;
+  }
 }
+
+
 
 @media (max-width: 1090px){
   .about-us-left-image{
@@ -684,6 +692,10 @@ header{
   .about-us-content{
     width: 70%;
   }
+
+  .testimonials span+p{
+    padding: 0 1rem;
+  }
 }
 
 
@@ -698,6 +710,10 @@ header{
     
   .about-us-content{
     width: 72%;
+  }
+
+  .testimonials span+p{
+    padding: 0rem;
   }
 }
 
@@ -735,8 +751,8 @@ header{
   }
 }
 
+
 @media (max-width: 870px){
-  
   .main h1{
     font-size: 3.6rem;
   }
@@ -764,6 +780,18 @@ header{
   .about-us-content{
     width: 75%;
   }
+
+
+
+  .testimonials{
+    margin: 5rem 3rem;
+  }
+  
+  .testimonials span+p{
+    padding: 0 3rem;
+  }
+
+
 
   .upper-footer{
     grid-template: auto / 100%;
