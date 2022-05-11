@@ -967,6 +967,11 @@ header{
     padding-left: 3rem;
   }
 
+
+  .s4-footer form{
+    width: 70%;
+  }
+
 }
 
 
@@ -1005,11 +1010,26 @@ header{
     margin-right: 3rem;
     font-size: 1rem;
   }
+
+  .s4-footer form{
+    width: 75%;
+  }
 }
 
 @media (max-width: 620px){
   .s1-footer img{
     width: 100%;
   }
+
+  .s4-footer form{
+    width: 80%;
+  }
 }
 
+@media (max-width: 550px){
+
+
+  .s4-footer form{
+    width: 100%;
+  }
+}
