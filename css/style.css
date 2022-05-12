@@ -138,7 +138,7 @@ header{
   position: relative;
   background: url(/img/brooke-lark-08bOYnH_r_E-unsplash.jpg);
   height: 792px;
-  background-position: 50% 0%;
+  background-position: 55% 0%;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: visible;
@@ -1045,5 +1045,12 @@ header{
 
   .s4-footer form{
     width: 100%;
+  }
+}
+
+
+@media (max-width: 520px){
+  .welcome-section h1{
+    font-size: 3.1rem;
   }
 }
