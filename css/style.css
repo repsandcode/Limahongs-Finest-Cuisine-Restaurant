@@ -720,6 +720,7 @@ header{
 @media (max-width: 930px){
   .welcome-section{
     margin-top: 11rem;
+    width: 55%;
   }
   
   .main h1{
@@ -953,7 +954,12 @@ header{
   }
 }
 
+
 @media (max-width: 800px){
+  .welcome-section{
+    width: 61%;
+  }
+
   .main form input{
     width: 70%;
   }
@@ -977,32 +983,12 @@ header{
 
 @media (max-width: 747px){
   .welcome-section{
-    transform: rotateY(180deg);
     margin-right: 3rem;
-    float: right;
     width: 60%;
   }
   
   .main form input{
     width: 70%;
-  }
-
-  .main h1{
-    font-size: 3.5rem;
-  }
-  
-  .main form{
-    margin: 2rem 0 2.4rem 0;
-    font-size: .9rem;
-  }
-  
-  .main form button{
-    padding: .88rem 1rem;
-  }
-  
-  .fa-caret-down{
-    margin-left: .4rem;
-    font-size: .9rem;
   }
 
   .main a{
@@ -1016,6 +1002,12 @@ header{
   }
 }
 
+@media (max-width: 700px){
+  .welcome-section{
+    margin-top: 10rem;
+  }
+}
+
 @media (max-width: 620px){
   .s1-footer img{
     width: 100%;
@@ -1026,8 +1018,30 @@ header{
   }
 }
 
-@media (max-width: 550px){
 
+@media (max-width: 600px){
+  .welcome-section{
+    width: 65%;
+  }
+
+  .welcome-section h1{
+    font-size: 3.5rem;
+  }
+
+  .main form input{
+    width: 65%;
+  }
+}
+
+
+@media (max-width: 550px){
+  .welcome-section{
+    width: 70%;
+  }
+
+  .welcome-section h1{
+    font-size: 3.3rem;
+  }
 
   .s4-footer form{
     width: 100%;
