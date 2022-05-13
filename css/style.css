@@ -1114,3 +1114,26 @@ header{
     width: 60%;
   }
 }
+
+
+@media screen and (max-width: 370px){
+  .welcome-section{
+    margin-top: 13rem;
+  }
+
+  .welcome-section h1{
+    font-size: 2.6rem;
+  } 
+
+  .main a {
+    margin-right: 1.5rem;
+  }
+
+  .main form input{
+    width: 50%;
+  }
+
+  .main form button{
+    padding: .9rem .5rem;
+  }
+}
