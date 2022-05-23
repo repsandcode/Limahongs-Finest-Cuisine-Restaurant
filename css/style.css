@@ -203,6 +203,10 @@ header{
   font-size: 1.2rem;
 }
 
+.main a:is(:hover, :focus){
+  color: var(--orange);
+}
+
 
 
 /* ABOUT US SECTION */
@@ -500,6 +504,10 @@ header{
 .lower-footer p{
   display: flex;
   align-items: center;
+}
+
+.lower-footer p a{
+  color: var(--orange);
 }
 
 .lower-footer ul{
