@@ -281,7 +281,7 @@ header{
 .menu{
   background: rgb(243, 247, 248);
   text-align: center;
-  padding: 5rem 7rem;
+  padding: 5rem 7%;
 }
 
 .menu nav{
@@ -294,8 +294,8 @@ header{
 }
 
 .menu li{
-  padding: 1rem 2.5%;
-  font-size: 1.13rem;
+  padding: 1rem 2%;
+  font-size: 1.2rem;
   border-bottom: 1.5px solid #c8c8c8;
   cursor: pointer;
 }
@@ -670,6 +670,15 @@ header{
   }
 
 
+  .menu nav{
+    margin: 2.4rem 0 2.7rem 0;
+  }
+
+  .menu li{
+    font-size: 1.1rem;
+  }
+
+
 
   .testimonials span+p{
     padding: 0 3rem;
@@ -937,7 +946,7 @@ header{
     justify-content: flex-start;
     max-width: 16rem;
 
-    background: rgba(16, 7, 7, 0.888);
+    background: rgba(255, 255, 255, 0.782);
     height: 100vh;
     margin-top: 0;
     padding: 8rem 3rem 0 3rem;
@@ -982,11 +991,8 @@ header{
   }
 
 
-
-  .menu-images{
-    display: grid;
-    grid-template: auto / 1fr;
-    gap: 5rem;
+  .menu{
+    padding: 5rem 3rem;
   }
 }
 
@@ -1063,6 +1069,12 @@ header{
   .main form input{
     width: 65%;
   }
+
+  .menu-images{
+    display: grid;
+    grid-template: auto / 1fr;
+    gap: 5rem;
+  }
 }
 
 
@@ -1077,6 +1089,10 @@ header{
 
   .main h1{
     font-size: 3.4rem;
+  }
+
+  .menu li{
+    font-size: 1rem;
   }
 
   .s4-footer form{
@@ -1146,7 +1162,7 @@ header{
 
 @media screen and (max-width: 400px){
   h1{
-    font-size: 2.6rem;
+    font-size: 2.5rem;
   }
 
   .welcome-section{
@@ -1165,12 +1181,27 @@ header{
   .main form input{
     width: 60%;
   }
+
+  .menu nav{
+    margin: 2rem 0 2.3rem 0;
+  }
+
+  .menu li{
+    font-size: .9rem;
+  }
+}
+
+
+@media screen and (max-width: 388px){
+  .menu-hidden{
+    top:20%;
+  }
 }
 
 
 @media screen and (max-width: 370px){
   h1{
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
 
   .welcome-section{
@@ -1191,5 +1222,37 @@ header{
 
   .main form button{
     padding: .9rem .5rem;
+  }
+
+  .menu nav{
+    margin: 1.7rem 0 2rem 0;
+  }
+
+  .menu li{
+    font-size: .7rem;
+    padding: .1rem 2%;
+  }
+}
+
+
+@media screen and (max-width: 350px) {
+  .menu-hidden{
+    top:19%;
+  }
+
+  .menu-hidden h2,
+  .menu-hidden p{
+    font-size: 1.7rem;
+  }
+  
+  .menu-hidden i{
+    font-size: .7rem;
+    margin: .6rem 0;
+  }
+  
+  .menu-hidden input{
+    padding: .75rem .8rem;
+    margin-top: 1rem;
+    font-size: .7rem;
   }
 }
