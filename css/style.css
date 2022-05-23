@@ -376,7 +376,7 @@ header{
 .testimonials img{
   border-radius: 50%;
   margin-top: 4rem;
-  width: 10%;
+  width: 10rem;
 }
 
 .testimonials h2{
@@ -402,7 +402,7 @@ header{
   font-size: 1.3rem;
   font-style: italic;
   line-height: 1.8;
-  padding: 0 6rem;
+  padding: 0 6%;
 }
 
 
@@ -680,9 +680,6 @@ header{
 
 
 
-  .testimonials span+p{
-    padding: 0 3rem;
-  }
 }
 
 
@@ -722,7 +719,16 @@ header{
     width: 70%;
   }
 
+  .testimonials h2{
+    font-size: 1.8rem;
+  }
+  
+  .testimonials h2+p{
+    font-size: .9rem;
+  }
+
   .testimonials span+p{
+    font-size: 1.2rem;
     padding: 0 1rem;
   }
 }
@@ -745,7 +751,12 @@ header{
     width: 72%;
   }
 
+  .testimonials h2{
+    font-size: 1.6rem;
+  }
+
   .testimonials span+p{
+    font-size: 1rem;
     padding: 0rem;
   }
 }
@@ -828,15 +839,9 @@ header{
   }
 
 
-
   .testimonials{
     margin: 5rem 3rem;
   }
-  
-  .testimonials span+p{
-    padding: 0 3rem;
-  }
-
 
 
   .upper-footer{
@@ -993,6 +998,10 @@ header{
 
   .menu{
     padding: 5rem 3rem;
+  }
+
+  .testimonials{
+    margin: 5rem 3rem;
   }
 }
 
