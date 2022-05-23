@@ -626,6 +626,14 @@ header{
 }
 
 @media (max-width: 1120px){
+  h1{
+    font-size: 4.1rem;
+  }
+  
+  h4{
+    font-size: 1rem;
+  } 
+
   .main h1{
     font-size: 4.5rem;
   }
@@ -681,6 +689,10 @@ header{
 
 
 @media (max-width: 1050px){
+  h1{
+    font-size: 3.9rem;
+  }
+
   .main h1{
     font-size: 4.3rem;
   }
@@ -700,6 +712,10 @@ header{
 
 
 @media (max-width: 1000px){
+  h1{
+    font-size: 3.6rem;
+  }
+
   .main h1{
     font-size: 4rem;
   }
@@ -718,6 +734,14 @@ header{
 }
 
 @media (max-width: 930px){
+  h1{
+    font-size: 3.5rem;
+  }
+  
+  h4{
+    font-size: 1rem;
+  } 
+
   .welcome-section{
     margin-top: 11rem;
     width: 55%;
@@ -754,6 +778,10 @@ header{
 
 
 @media (max-width: 870px){
+  h1{
+    font-size: 3.4rem;
+  }
+
   .main h1{
     font-size: 3.6rem;
   }
@@ -1024,10 +1052,6 @@ header{
     width: 65%;
   }
 
-  .welcome-section h1{
-    font-size: 3.5rem;
-  }
-
   .main form input{
     width: 65%;
   }
@@ -1035,11 +1059,15 @@ header{
 
 
 @media (max-width: 550px){
+  h1{
+    font-size: 3.2rem;
+  }
+
   .welcome-section{
     width: 70%;
   }
 
-  .welcome-section h1{
+  .main h1{
     font-size: 3.4rem;
   }
 
@@ -1050,22 +1078,30 @@ header{
 
 
 @media (max-width: 520px){
+  h1{
+    font-size: 3.1rem;
+  }
+
   .welcome-section{
     margin-top: 11rem;  
   }
 
-  .welcome-section h1{
+  .main h1{
     font-size: 3.3rem;
   }
 }
 
 
 @media screen and (max-width: 445px){
+  h1{
+    font-size: 3rem;
+  }
+
   .welcome-section{
     width: 75%;
   }
 
-  .welcome-section h1{
+  .main h1{
     font-size: 3.2rem;
   } 
 
@@ -1077,11 +1113,15 @@ header{
 
 
 @media screen and (max-width: 420px){
+  h1{
+    font-size: 2.8rem;
+  }
+
   .welcome-section{
     width: 77%;
   }
 
-  .welcome-section h1{
+  .main h1{
     font-size: 3rem;
   } 
 
@@ -1097,11 +1137,15 @@ header{
 
 
 @media screen and (max-width: 400px){
+  h1{
+    font-size: 2.6rem;
+  }
+
   .welcome-section{
     margin-top: 12rem;
   }
 
-  .welcome-section h1{
+  .main h1{
     font-size: 2.8rem;
   } 
 
@@ -1117,11 +1161,15 @@ header{
 
 
 @media screen and (max-width: 370px){
+  h1{
+    font-size: 2.4rem;
+  }
+
   .welcome-section{
     margin-top: 13rem;
   }
 
-  .welcome-section h1{
+  .main h1{
     font-size: 2.6rem;
   } 
 
