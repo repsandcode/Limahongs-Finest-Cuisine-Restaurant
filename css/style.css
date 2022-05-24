@@ -1077,11 +1077,6 @@ header{
   }
 }
 
-@media (max-width: 700px){
-  .welcome-section{
-    margin-top: 10rem;
-  }
-}
 
 @media (max-width: 620px){
   .s1-footer img{
@@ -1137,10 +1132,6 @@ header{
 @media (max-width: 520px){
   h1{
     font-size: 3.1rem;
-  }
-
-  .welcome-section{
-    margin-top: 11rem;  
   }
 
   .main h1{
@@ -1215,10 +1206,6 @@ header{
     font-size: 2.5rem;
   }
 
-  .welcome-section{
-    margin-top: 12rem;
-  }
-
   .main h1{
     font-size: 2.8rem;
   } 
@@ -1265,10 +1252,6 @@ header{
 @media screen and (max-width: 370px){
   h1{
     font-size: 2rem;
-  }
-
-  .welcome-section{
-    margin-top: 13rem;
   }
 
   .main h1{
@@ -1325,5 +1308,65 @@ header{
 
   .footer h3{
     font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .main h1{
+    font-size: 2.3rem;
+  } 
+
+  .main a {
+    margin-right: 1.2rem;
+  }
+
+  .main form{
+    margin: 1.3rem 0 2.5rem 0;
+  }
+
+  .main form input{
+    padding: .7rem .8rem;
+    width: 55%;
+  }
+
+  .main form button{
+    padding: .7rem .5rem;
+  }
+}
+
+
+
+
+
+/* height max */
+@media screen and (max-height: 750px) {
+  .main{
+    height: 700px;
+  }
+
+  .welcome-section{
+    margin-top: 8.5rem;
+  }
+}
+
+
+@media screen and (max-height: 650px) {
+  .main{
+    height: 630px;
+  }
+
+  .welcome-section{
+    margin-top: 7.5rem;
+  }
+}
+
+
+@media screen and (max-height: 590px) {
+  .main{
+    height: 580px;
+  }
+
+  .welcome-section{
+    margin-top: 6.4rem;
   }
 }
