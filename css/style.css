@@ -501,13 +501,13 @@ header{
   justify-content: space-between;
 }
 
-.lower-footer p{
+.lf-copyright{
   display: flex;
-  align-items: center;
+  flex-direction: column;
 }
 
-.lower-footer p a{
-  color: var(--orange);
+.lf-copyright p+p{
+  margin-top: .5rem;
 }
 
 .lower-footer ul{
@@ -1057,8 +1057,8 @@ header{
     flex-direction: column-reverse;
   }
 
-  .lower-footer p{
-    justify-content: center;
+  .lf-copyright{
+    align-items: center;
   }
 
   .lower-footer ul{
