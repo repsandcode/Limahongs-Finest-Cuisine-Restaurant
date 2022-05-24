@@ -1166,6 +1166,23 @@ header{
     margin-right: 2rem;
     font-size: 1rem;
   }
+
+  .footer h3{
+    font-size: 1.7rem;
+  }
+
+  .footer p,
+  .footer input{
+    font-size: .8rem;
+  }
+
+  .s4-footer input{
+    padding: .8rem;
+  }
+
+  .s4-footer button{
+    padding: .65rem 0 .85rem 0;
+  }
 }
 
 
@@ -1229,6 +1246,19 @@ header{
   .menu-hidden{
     top:20%;
   }
+
+  .footer h3{
+    font-size: 1.6rem;
+  }
+
+  .footer p,
+  .footer input{
+    font-size: .7rem;
+  }
+
+  .s4-footer button{
+    padding: .60rem 0 .80rem 0;
+  }
 }
 
 
@@ -1265,6 +1295,10 @@ header{
     font-size: .7rem;
     padding: .1rem 2%;
   }
+
+  .footer h3{
+    font-size: 1.5rem;
+  }
 }
 
 
@@ -1287,5 +1321,9 @@ header{
     padding: .75rem .8rem;
     margin-top: 1rem;
     font-size: .7rem;
+  }
+
+  .footer h3{
+    font-size: 1.3rem;
   }
 }
