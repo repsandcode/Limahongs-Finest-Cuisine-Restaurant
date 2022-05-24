@@ -1051,6 +1051,30 @@ header{
   .s4-footer form{
     width: 75%;
   }
+
+  .lower-footer{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .lower-footer p{
+    justify-content: center;
+  }
+
+  .lower-footer ul{
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  .lower-footer li{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .lower-footer .fa-instagram{
+    margin: 0 2rem;
+  }
 }
 
 @media (max-width: 700px){
