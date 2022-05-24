@@ -541,22 +541,21 @@ header{
 /* ADDITIONAL STYLES
 /*******************************************/
 
-/* @media (max-width: 640px) { h1 {font-size:1rem;} }
-@media (max-width:960px) { h1 {font-size:1.2rem;} }
-@media (max-width:1100px) { h1 {font-size:1.5rem;} } */
+::-webkit-scrollbar{
+  width: .7rem;
+}
 
-@media (max-width: 1400px){
+::-webkit-scrollbar-track{
+  background: transparent;
+}
 
-  /* .menu-hidden{
-    top:20%;
-  }
-  .menu-hidden h2,
-  .menu-hidden p{
-    font-size: 1.8rem;
-  }
-  .menu-hidden i{
-    font-size: .9rem;
-  } */
+::-webkit-scrollbar-thumb{
+  background-color: var(--indigo);
+  border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: var(--orange);
 }
 
 @media (max-width: 1366px){
