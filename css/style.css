@@ -928,7 +928,7 @@ header{
     height: 4px;
     width: 100%;
     border-radius: 10px;
-    background: #333;
+    background: var(--indigo);
   }
 
   .header .hamburger-lines .line1 {
@@ -950,7 +950,7 @@ header{
     justify-content: flex-start;
     max-width: 16rem;
 
-    background: rgba(255, 255, 255, 0.782);
+    background: rgb(255, 255, 255);
     height: 100vh;
     margin-top: 0;
     padding: 8rem 3rem 0 3rem;
