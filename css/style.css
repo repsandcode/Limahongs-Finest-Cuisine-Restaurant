@@ -1198,6 +1198,10 @@ header{
   .main form input{
     width: 65%;
   }
+
+  .about-us-content p{
+    font-size: .9rem;
+  }
 }
 
 
